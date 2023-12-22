@@ -3,8 +3,8 @@ import NavBar from "./consts/NavBar";
 import Div1 from "./landingcomponents/Div1";
 import Div2 from "./landingcomponents/Div2";
 import Div3 from "./landingcomponents/Div3";
-import "./Landing.css";
-import "../assets/landingimage1.png";
+import Div4 from "./landingcomponents/Div4";
+import Div5 from "./landingcomponents/Div5";
 
 const Landing = () => {
   return (
@@ -16,6 +16,8 @@ const Landing = () => {
       <Div1 />
       <Div2 />
       <Div3 />
+      <Div4 />
+      <Div5/>
       {/* End */}
     </div>
   );
