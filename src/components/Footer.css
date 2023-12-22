@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center content vertically */
+    padding: 70px 20px 100px; /* 70px above, 20px left/right, 100px below */
+  }
+  
+  .footer-column {
+    text-align: left;
+  }
+  
+  .footer-column h3 {
+    color: #f5f5f5;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    color: #f5f5f5;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 8px 0;
+  }
+  
