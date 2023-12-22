@@ -12,10 +12,13 @@ li {
 }
 
 a {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
+
 nav {
+  
   padding: 16px 24px;
   display: flex;
   justify-content: space-between;

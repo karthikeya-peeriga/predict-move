@@ -1,10 +1,10 @@
 import React from "react";
-
-function NavBar() {
+import './NavBar.css';
+function NavBar(props) {
   return (
-    <div>
+    <div style={{backgroundColor:props.color}}>
       <nav>
-        <div className="logo">PREDICT MOVE</div>
+        <div className="logo"><a>PREDICT MOVE</a></div>
         <ul className="nav-links">
             <li><a>Plans</a></li>
             <li><a>Sign In</a></li>

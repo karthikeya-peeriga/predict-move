@@ -5,7 +5,6 @@ import LandingPage from "./components/Landing.js";
 
 function App(){
     return <div>
-    <NavBar/>
     <LandingPage/>
     </div>
 }
