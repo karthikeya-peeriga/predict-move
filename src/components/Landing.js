@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "./NavBar";
+import NavBar from "./consts/NavBar";
 import Div1 from "./landingcomponents/Div1";
 import Div2 from "./landingcomponents/Div2";
+import Div3 from "./landingcomponents/Div3";
 import "./Landing.css";
 import "../assets/landingimage1.png";
 
@@ -14,7 +15,7 @@ const Landing = () => {
       {/* first div*/}
       <Div1 />
       <Div2 />
-
+      <Div3 />
       {/* End */}
     </div>
   );

@@ -1,0 +1,89 @@
+/* Div3.css */
+
+.div3 {
+  background: #414141;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center the child divs horizontally */
+  align-items: center;
+}
+
+.child-div {
+  width: 632px;
+  height: 618px;
+  margin: 8px; /* Adjusted margin to 8px to achieve 16px space between the divs */
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Styles for the left child div */
+.child-div:nth-child(odd) {
+  background: #232323;
+}
+
+/* Styles for the right child div */
+.child-div:nth-child(even) {
+  background: #D0ACFF;
+}
+
+/* Styles for the image in the left child div */
+.child-div:nth-child(odd) img {
+  margin-top: 90px;
+}
+
+/* Styles for the image in the right child div */
+.child-div:nth-child(even) img {
+  margin-top: 45px;
+}
+
+/* Styles for the title in the left child div only */
+.child-div:nth-child(odd) h3 {
+  color: #F5F5F5;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 48px; /* Adjusted for the gap between title and image */
+}
+
+/* Styles for the title in the right child div only */
+.child-div:nth-child(even) h3 {
+  color: #232323; /* Set title color to #232323 for the right child div */
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 48px; /* Adjusted for the gap between title and image */
+}
+
+/* Styles for the content in the left child div */
+.child-div:nth-child(odd) p {
+  color: #F5F5F5; /* Set text color to white for the left child div */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%; /* 23.04px */
+  margin-top: 24px; /* Adjusted for the gap between title and content */
+  text-align: left; /* Align the text to the left */
+  width: 70%; /* Set a specific width for the text */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles for the content in the right child div */
+.child-div:nth-child(even) p {
+  color: #232323; /* Set text color to #232323 for the right child div */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%; /* 23.04px */
+  margin-top: 24px; /* Adjusted for the gap between title and content */
+  text-align: left; /* Align the text to the left */
+  width: 70%; /* Set a specific width for the text */
+  margin-left: auto;
+  margin-right: auto;
+}
