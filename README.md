@@ -69,6 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-###View the site on github pages. 
+### View The site on GitHub Pages.
+
 The github pages implementation is a way to view the front end and partial functionality ONLY. This can be viewed in the following site: 
 
