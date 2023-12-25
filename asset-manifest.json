@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/predict-move/static/css/main.19c85623.css",
+    "main.js": "/predict-move/static/js/main.f29f3243.js",
+    "static/media/landingimage1.png": "/predict-move/static/media/landingimage1.3161e4c784f319f148f0.png",
+    "static/media/landingimage2.png": "/predict-move/static/media/landingimage2.9ad6ed1e103650591adc.png",
+    "static/media/landingimage3-2.png": "/predict-move/static/media/landingimage3-2.ea2b345345aded2340c0.png",
+    "static/media/landingimage4.png": "/predict-move/static/media/landingimage4.a2686fdda8e38a6ca9ec.png",
+    "static/media/landingimage3-1.png": "/predict-move/static/media/landingimage3-1.552ebf50a3bb7663661c.png",
+    "static/media/landingimage5.png": "/predict-move/static/media/landingimage5.8694ae22eaf7d1bf9d66.png",
+    "static/media/landingimage5-1.png": "/predict-move/static/media/landingimage5-1.dc28f3baf8afada5e147.png",
+    "index.html": "/predict-move/index.html",
+    "main.19c85623.css.map": "/predict-move/static/css/main.19c85623.css.map",
+    "main.f29f3243.js.map": "/predict-move/static/js/main.f29f3243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c85623.css",
+    "static/js/main.f29f3243.js"
+  ]
+}
